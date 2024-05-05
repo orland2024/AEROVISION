@@ -1,50 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SITE AEROVISION</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Début Nav barre  -->
-    <nav class="flex  justify-between px-10 py-10">
-        <div class="flex items-center gap-3 font-bold">
-            <img class="pt-3" src="./Image/logo.png" alt="">
-            <h3 class="">AeroVision</h3>
-        </div>
-        <div class=" hidden flex md:flex md:flex-row lg:flex-row items-center gap-10 font-bold ">
-            <ul class="flex gap-10">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact me</a></li>
+    <nav class="flex justify-between px-10 py-10">
+      <div class="flex items-center gap-3 font-bold">
+        <img class="pt-3" src="./Image/logo.png" alt="" />
+        <h3 class="">AeroVision</h3>
+      </div>
+      <div
+        class="hidden flex md:flex md:flex-row lg:flex-row items-center gap-10 font-bold"
+      >
+        <ul class="flex gap-10">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact me</a></li>
         </ul>
-        <button class="bg-blue-500 text-white h-12 W-12 py-2 px-2 rounded-full">Let's chat</button>
-    </div>
-          <div class="md:hidden lg:hidden xl:hidden 2xl:hidden"><img class="" src="./Image/Burger.png" alt=""></div>  
+        <button class="bg-blue-500 text-white h-12 W-12 py-2 px-2 rounded-full">
+          Let's chat
+        </button>
+      </div>
+      <div class="md:hidden lg:hidden xl:hidden 2xl:hidden">
+        <img class="" src="./Image/Burger.png" alt="" />
+      </div>
     </nav>
     <!-- Fin Nav barre  -->
 
     <!-- Début de la Première Section -->
-    <div class="flex justify-between pt-26 pb-26 px-10 py-10">
-        <div class="pt-20">
-            <h1 class="font-bold">Welcome to my Portfolio</h1>
-            <p class="pt-8 text-6xl font-bold">Hi I’m <br><span class="text-blue-900">Robert Junior</span> <br>Product Designer</p>
-            <p class="pt-3">Collaborating with highly skilled individuals,<br>our agency delivers top-quality services</p>
-            <div class="pt-6 flex gap-8">
-            <button class="bg-blue-500 text-white font-bold rounded-full h-12 W-22">Let's chat</button>
-            <button class="border-indigo-500/100 text-black font-bold rounded-full h-12 W-22">Download CV</button>   
-            </div>    
+    <div class="flex flex-col sm:flex-col-reverse md:flex-row lg:flex-row xl:flex-row 2xl:flex-row  justify-between pt-26 pb-26 px-10 py-10">
+      <div class="pt-20">
+        <h1 class="font-bold">Welcome to my Portfolio</h1>
+        <p class="pt-8 text-6xl font-bold">
+          Hi I’m <br /><span class="text-blue-900">Robert Junior</span>
+          <br />Product Designer
+        </p>
+        <p class="pt-3">
+          Collaborating with highly skilled individuals,<br />our agency
+          delivers top-quality services
+        </p>
+        <div class="pt-6 flex gap-8">
+          <button
+            class="bg-blue-500 p-2 text-white font-bold rounded-full h-12 W-22"
+          >
+            Let's chat
+          </button>
+          <button
+            class="border-indigo-500 border-2 p-2 text-black font-bold rounded-full h-12 W-22"
+          >
+            Download CV
+          </button>
         </div>
-        <div>
-            <img class="h-[500px]" src="./Image/I1.png" alt="">
-        </div>
+      </div>
+      <div>
+        <img class="h-[500px]" src="./Image/I1.png" alt="" />
+      </div>
     </div>
-    
-
     <!-- Fin de la Première Section -->
-    
-</body>
+
+    <!-- Début de la Deuxième Section -->
+    <div class="flex flex-col md:flex-row  lg:flex-row xl:flex-row 2xl:flex-row justify-between bg-slate-300 py-10">
+        <img src="./Image/JQ.png" alt="">
+        <img src="./Image/WP.png" alt="">
+        <img src="./Image/LS.png" alt="">
+        <img src="./Image/SAS.png" alt="">
+    </div>
+
+    <!-- Fin de la Deuxième Section -->
+
+    <!--  -->
+  </body>
 </html>
